@@ -1,3 +1,9 @@
+# Purpose : Load the matrix containing polarizability and wavefunctions, interpolate the
+# polarizability if needed, and compute the respective matrix elements.
+# Author : Ankit
+
+
+# Load necessary modules
 import sys
 import numpy as np
 import time
@@ -66,7 +72,6 @@ H2v0j8=np.loadtxt("./wavefunctions/H2v0J8_norm.txt")
 H2v0j9=np.loadtxt("./wavefunctions/H2v0J9_norm.txt")
 H2v0j10=np.loadtxt("./wavefunctions/H2v0J10_norm.txt")
 
-
 D2v0j0=np.loadtxt("./wavefunctions/D2v0J0_norm.txt")
 D2v0j1=np.loadtxt("./wavefunctions/D2v0J1_norm.txt")
 D2v0j2=np.loadtxt("./wavefunctions/D2v0J2_norm.txt")
@@ -79,8 +84,6 @@ D2v0j8=np.loadtxt("./wavefunctions/D2v0J8_norm.txt")
 D2v0j9=np.loadtxt("./wavefunctions/D2v0J9_norm.txt")
 D2v0j10=np.loadtxt("./wavefunctions/D2v0J10_norm.txt")
 
-
-
 rwave=np.loadtxt("./wavefunctions/r_wave.txt")
 #----------------------------------------
 
@@ -88,7 +91,6 @@ rwave=np.loadtxt("./wavefunctions/r_wave.txt")
 # function to interpolate a 2D wave along an axis (along columns)
 def interpolate2Dw(input2D,omega,omega_final, OutputFileName):
     inputSize=input2D.shape
-    print(inputSize)
     num_omega_final=(omega_final.shape)
     SizeOmegaFinal=(num_omega_final[0])
     outputArray=np.zeros((SizeOmegaFinal,inputSize[1]))
@@ -99,12 +101,13 @@ def interpolate2Dw(input2D,omega,omega_final, OutputFileName):
         outputArray[:,i]=interp
 
     np.savetxt(OutputFileName,outputArray)
+#    print(outputArray.shape)
 
 #----------------------------------------
 
 
 # Use the interpolate2Dw function to interpolate the isotropy or anisotropy
-# the interpolated output is saved as txt file.
+# the interpolated output is also saved as txt file.
 interpolate2Dw( isotropy,omega_nm,omega_final,"isotropy_final.txt")
 interpolate2Dw( anisotropy,omega_nm,omega_final,"anisotropy_final.txt")
 
@@ -115,18 +118,27 @@ anisotropy_F=np.loadtxt("anisotropy_final.txt")
 anisotropy_FT=anisotropy_F.T    # transpose
 
 # extract out polarizability along internuclear distance for certain wavelength
-index=0 # index selects out certain column corresponding to certain wavelength.
+index=0 # index selects out a column corresponding to certain wavelength.
 
 omega0=omega_final[index]               # index governs the wavelength.
 print("Selected wavelength:", omega0)
 
-parameter1=isotropy_FT[:,index]
-parameter2=anisotropy_FT[:,index]
+parameter1=isotropy_FT[:,index]         # will be used for computation of matrix elements
+parameter2=anisotropy_FT[:,index]       # will be used for computation of matrix elements
 #----------------------------------------
-#----------------------------------------
+
+
 #----------------------------------------
 # function to the matrix element for certain rovibrational state
 def MEcompute(psi1,psi2,psi_r, parameter, parameter_r ):
+                #  parameters:
+                # psi1  =       wavefunction 1
+                # psi2  =       wavefunction 2
+                # psi_r =       xaxis (internuclear distance) for wavefunctions
+                # parameter     =       parameter whose matrix element is to be computed
+                # parameter_r = parameter's xaxis ( internuclear distance)
+
+
 
         # step 1: gen cubic spline coefs.
         splc=interpolate.splrep(parameter_r,parameter,s=0)
@@ -149,44 +161,15 @@ def MEcompute(psi1,psi2,psi_r, parameter, parameter_r ):
 
         # compute the integral using adaptive Quadrature
         result=integrate.quadrature(integrand,0.2,4.48,tol=1.0e-9,maxiter=500)
-        print("<psi1|parameter|psi2> = ",result)
+        print("psi1|parameter|psi2> = ",result)
 
 #----------------------------------------
-#******************************************************************************************
 
-
-def integrand2(xpoint, splc):
+# function defining the integrand which uses the spline coef array to give interpolated values
+def integrand(xpoint):
     spline_array=splc
     result=interpolate.splev(xpoint,spline_array,der=0)
     return result
-
-
-#----------------------------------------
-# function to the matrix element for certain rovibrational state
-def MEcompute2(psi1,psi2,psi_r, parameter, parameter_r ):
-
-        # step 1: gen cubic spline coefs.
-        splc=interpolate.splrep(parameter_r,parameter,s=0)
-
-        # generate interpolated parameter for same xaxis as psi
-        parameter_interp=interpolate.splev(psi_r,splc,der=0)
-
-        # compute the pointwise products
-        p1=np.multiply(psi1,psi2)
-        p2=np.multiply(p1,psi_r)
-        p3=np.multiply(p2,psi_r)
-        product=np.multiply(p3,parameter_interp)
-
-        # step 1: gen cubic spline coefs
-        splc=interpolate.splrep(psi_r,product,s=0)
-
-        # compute the integral using adaptive Quadrature
-        result = integrate.quadrature(integrand2, 0.2, 4.48,tol=1.0e-9, maxiter=500,args=(splc,))
-        print("<psi1|parameter|psi2> = ",result)
-
-#----------------------------------------
-
-
 #----------------------------------------
 # computing the matrix element
 
@@ -194,5 +177,5 @@ def MEcompute2(psi1,psi2,psi_r, parameter, parameter_r ):
 MEcompute(H2v0j0,H2v0j0,rwave,parameter1,distance)
 
 # anisotropy, 182.260 nm ; for H2v0j0
-MEcompute2(H2v0j0,H2v0j0,rwave,parameter1,distance)
+MEcompute(H2v0j0,H2v0j0,rwave,parameter2,distance)
 #----------------------------------------
