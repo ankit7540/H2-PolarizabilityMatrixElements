@@ -50,10 +50,10 @@ This repository contains :
 ```ME-module.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
 
 ![f2]
-```ME-module.MEcompute("HD",2,1,1,1,355,"n","g")``` 
+```ME-module.MEcompute("D2",2,1,1,1,355,"0.15","H")``` 
 
 ![f3]
-```ME-module.MEcompute("HD",2,1,1,1,3550,"A","xx")``` 
+```ME-module.MEcompute("HD",2,1,1,1,3550,"A","zz")``` 
  
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
 [f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
