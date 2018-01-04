@@ -45,19 +45,19 @@ This repository contains :
 
 **Examples**
 
- A few matrix elements and their corresponding commands are shown below,
+A few matrix elements and their corresponding commands are shown below,
 
- ![f1] for H2 
+- ![f1] for H2 
  
 ```ME-module.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
 
 
-![f2] for D2
+- ![f2] for D2
 
 ```ME-module.MEcompute("D2",2,1,1,1,355,"0.15","H")``` 
 
 
-![f3] for HD
+- ![f3] for HD
 
 ```ME-module.MEcompute("HD",2,1,1,1,3550,"A","zz")``` 
  
