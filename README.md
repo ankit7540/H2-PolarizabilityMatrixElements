@@ -30,10 +30,10 @@ This repository contains :
     ...ready.
     ```
  7. Use the following command to do computation of the matrix element.
-    > MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
+    > ME-module.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
       where the parameters are described below: 
       
-    - mol  =    molecule (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
+    - mol  =    molecule specification (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
     - vl   =    vibrational state for the bra, vl = [0,4]
     - Jl   =    rotational state for the bra,  Jl = [0,10]
     - vr   =    vibrational state for the ket, vr = [0,4]
@@ -44,7 +44,7 @@ This repository contains :
                                 ( for  nanometers        use "n" or "nm"  )
                                 ( for  Angstrom          use "a" or "A"  )
 
-    operator   = property namely alpha_xx, alpha_zz, mean polarizability
+    - operator   = property namely alpha_xx, alpha_zz, mean polarizability
                                    (isotropy)[\bar{alpha}], anisotropy[\gamma]
                                    Specify operator using the specifier.
                                  ( for  alpha_xx          use "x"     or  "xx"  )
@@ -53,3 +53,6 @@ This repository contains :
                                  ( for  anisotropy        use "aniso" or  "g"  or "diff" )
                                  ( for  all the above     use "all"   or  "ALL" )
 
+ *Example*
+ For H2, http://mathurl.com/y8bfqkvo
+ ```ME-module.MEcompute("H2",0,0,0,0,720.26,"n","diff")``` 
