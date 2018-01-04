@@ -20,7 +20,7 @@ This repository contains :
     
     > sys.path.append("..")
      
- 5. Import the presnet module.
+ 5. Import the `ME-module` which should be in your current folder.
     > import ME-module
  6. If all requirements are met the following output should be produced.
     ```
@@ -41,9 +41,9 @@ This repository contains :
     - Jr   =    rotational state for the bra,  Jr = [0,10]
     - wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
     - wavelength_unit = specify unit using the specifier
-      - ( for  Hartree           use "H" or "h"  )
-      - ( for  nanometers        use "n" or "nm"  )
-      - ( for  Angstrom          use "a" or "A"  )
+      -( for  Hartree           use "H" or "h"  )
+      -( for  nanometers        use "n" or "nm"  )
+      -( for  Angstrom          use "a" or "A"  )
 
     - operator   = property namely alpha_xx, alpha_zz, mean polarizability
                                    (isotropy)[\bar{alpha}], anisotropy[\gamma]
