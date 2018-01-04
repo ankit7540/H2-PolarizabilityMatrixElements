@@ -15,6 +15,7 @@ This repository contains :
  3. Initialize python by `python3`
  4. Import the `sys` module and add the current folder to path allowing to import the module in the current folder.
     > import sys
+    
     > sys.path.append("..")
      
  5. Import the presnet module.
