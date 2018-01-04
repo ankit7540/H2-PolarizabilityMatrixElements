@@ -23,8 +23,10 @@ This repository contains :
  5. Import the presnet module.
     > import ME-module
  6. If all requirements are met the following output should be produced.
-    > Dimensions of isotropy matrix : (44, 176)
-    > Dimensions of anisotropy matrix : (44, 176)
-    > Available wavelength range:  0.25 - 0.0345 Hartree;  182.253410111 - 1320.67688486  nm;  1822.53410111 - 13206.7688486  Angstrom.
+    ```
+    Dimensions of isotropy matrix : (44, 176)
+    Dimensions of anisotropy matrix : (44, 176)
+    Available wavelength range:  0.25 - 0.0345 Hartree;  182.253410111 - 1320.67688486  nm;  1822.53410111 - 13206.7688486  Angstrom.
 ...ready.
+   ```
 
