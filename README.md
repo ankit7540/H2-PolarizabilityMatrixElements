@@ -44,15 +44,15 @@ This repository contains :
     - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above  use "all"   or  "ALL" .
 
 **Examples**
- The following matrix element for H2 would need,
+ A few matrix elements and their corresponding commands are shown below,
 
- ![f1] 
+ ![f1] for H2 
 ```ME-module.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
 
-![f2]
+![f2] for D2
 ```ME-module.MEcompute("D2",2,1,1,1,355,"0.15","H")``` 
 
-![f3]
+![f3] for HD
 ```ME-module.MEcompute("HD",2,1,1,1,3550,"A","zz")``` 
  
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
