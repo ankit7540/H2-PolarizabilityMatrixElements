@@ -31,7 +31,8 @@ This repository contains :
     ```
  7. Use the following command to do computation of the matrix element.
     > ME-module.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
-      where the parameters are described below: 
+    
+    where the parameters are described below: 
       
     - mol  =    molecule specification (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
     - vl   =    vibrational state for the bra, vl = [0,4]
