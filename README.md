@@ -40,20 +40,8 @@ This repository contains :
     - vr   =    vibrational state for the ket, vr = [0,4]
     - Jr   =    rotational state for the bra,  Jr = [0,10]
     - wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
-    - wavelength_unit = specify unit using the specifier
-    
-     * ( for  Hartree           use "H" or "h"  )
-     * ( for  nanometers        use "n" or "nm"  )
-     * ( for  Angstrom          use "a" or "A"  )
-
-    - operator   = property namely alpha_xx, alpha_zz, mean polarizability
-                                   (isotropy)[\bar{alpha}], anisotropy[\gamma]
-                                   Specify operator using the specifier.
-     --  ( for  alpha_xx          use "x"     or  "xx"  )
-     --  ( for  alpha_zz          use "z"     or  "zz"  )
-     --  ( for  isotropy          use "iso"   or  "mp" or "mean" )
-     --  ( for  anisotropy        use "aniso" or  "g"  or "diff" )
-     --  ( for  all the above     use "all"   or  "ALL" )
+    - wavelength_unit = specify unit using the specifier, ( for  Hartree use "H" or "h" , for  nanometers use "n" or "nm" , for  Angstrom use "a" or "A"  )
+    - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above  use "all"   or  "ALL" .
 
 **Examples**
  The following matrix element for H2 would need,
