@@ -16,12 +16,12 @@ This repository contains :
 2. Move to the unzipped folder on the console.
 3. Initialize python by `python3`
 4. Import the `sys` module and add the current folder to path allowing to import the module in the current folder.
-    > import sys
+    > >>>import sys
     
-    > sys.path.append("..")
+    > >>>sys.path.append("..")
      
 5. Import the `ME-module` which should be in your current folder.
-    > import ME-module
+    > >>>import ME-module
 6. If all requirements are met the following output should be produced.
     ```
     Dimensions of isotropy matrix : (44, 176)
@@ -30,7 +30,7 @@ This repository contains :
     ...ready.
     ```
 7. Use the following command to do computation of the matrix element.
-    > ME-module.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
+    > >>>ME-module.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     
     where the parameters are described below: 
       
