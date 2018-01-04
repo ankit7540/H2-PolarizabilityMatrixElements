@@ -7,5 +7,5 @@ This repository contains :
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
  To use the program follow the steps.
- 1. Download the zip file.
- 2. Unzip it to a folder. 
+ 1. Download the zip file and unzip it to a folder.
+ 2. 
