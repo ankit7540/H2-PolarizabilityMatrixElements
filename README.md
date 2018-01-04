@@ -33,13 +33,13 @@ This repository contains :
     > MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
       where the parameters are described below: 
       
-    -mol  =    molecule (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
-    -vl   =    vibrational state for the bra, vl = [0,4]
-    -Jl   =    rotational state for the bra,  Jl = [0,10]
-    -vr   =    vibrational state for the ket, vr = [0,4]
-    -Jr   =    rotational state for the bra,  Jr = [0,10]
-    -wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
-    -wavelength_unit = specify unit using the specifier
+    - mol  =    molecule (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
+    - vl   =    vibrational state for the bra, vl = [0,4]
+    - Jl   =    rotational state for the bra,  Jl = [0,10]
+    - vr   =    vibrational state for the ket, vr = [0,4]
+    - Jr   =    rotational state for the bra,  Jr = [0,10]
+    - wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
+    - wavelength_unit = specify unit using the specifier
                                 ( for  Hartree           use "H" or "h"  )
                                 ( for  nanometers        use "n" or "nm"  )
                                 ( for  Angstrom          use "a" or "A"  )
