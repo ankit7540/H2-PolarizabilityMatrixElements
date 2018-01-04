@@ -53,12 +53,15 @@ This repository contains :
                                  ( for  anisotropy        use "aniso" or  "g"  or "diff" )
                                  ( for  all the above     use "all"   or  "ALL" )
 
- *Example*
- For H2,the following matrix element would need,
- \langle \psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0} \rangle
- ![f1]
- 
- 
- ```ME-module.MEcompute("H2",0,0,0,0,720.26,"n","diff")``` 
+**Examples**
+ The following matrix element for H2 would need,
+
+ ![f1] 
+```ME-module.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
+
+![f2]
+```ME-module.MEcompute("HD",2,1,1,1,355,"n","g")``` 
+
  
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
+[f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
