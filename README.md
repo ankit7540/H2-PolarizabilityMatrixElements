@@ -61,4 +61,4 @@ This repository contains :
  
  ```ME-module.MEcompute("H2",0,0,0,0,720.26,"n","diff")``` 
  
- [f1]: http://mathurl.com/y8bfqkvo
+[f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle \psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0} \rangle
