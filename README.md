@@ -55,7 +55,7 @@ This repository contains :
 
  *Example*
  For H2,the following matrix element would need,
- 
+ \langle \psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0} \rangle
  ![f1]
  
  
