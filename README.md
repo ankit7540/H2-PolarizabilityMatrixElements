@@ -7,7 +7,9 @@ This repository contains :
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
  **Requirements**
- python3
+  - python3
+  - numpy
+  - scipy
  
  To use the program (in a UNIX environment or MS-DOS environment) follow the steps.
  1. Download the zip file and unzip it to a folder.
@@ -20,3 +22,4 @@ This repository contains :
      
  5. Import the presnet module.
     > import ME-module
+ 6. If everything is    
