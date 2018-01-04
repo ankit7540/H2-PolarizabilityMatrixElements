@@ -26,6 +26,30 @@ This repository contains :
     ```
     Dimensions of isotropy matrix : (44, 176)
     Dimensions of anisotropy matrix : (44, 176)
-    Available wavelength range:  0.25 - 0.0345 Hartree;  182.253410111 - 1320.67688486  nm;  1822.53410111 - 13206.7688486  Angstrom....ready.
-   ```
+    Available wavelength range:  0.25 - 0.0345 Hartree;  182.253410111 - 1320.67688486  nm;  1822.53410111 - 13206.7688486  Angstrom.
+    ...ready.
+    ```
+ 7. Use the following command to do computation of the matrix element.
+    > MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
+      where the parameters are described below: 
+      
+    # mol  =    molecule (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
+    # vl   =    vibrational state for the bra, vl = [0,4]
+    # Jl   =    rotational state for the bra,  Jl = [0,10]
+    # vr   =    vibrational state for the ket, vr = [0,4]
+    # Jr   =    rotational state for the bra,  Jr = [0,10]
+    # wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
+    # wavelength_unit = specify unit using the specifier
+                                ( for  Hartree           use "H" or "h"  )
+                                ( for  nanometers        use "n" or "nm"  )
+                                ( for  Angstrom          use "a" or "A"  )
+
+    # operator   = property namely alpha_xx, alpha_zz, mean polarizability
+                                   (isotropy)[\bar{alpha}], anisotropy[\gamma]
+                                   Specify operator using the specifier.
+                                 ( for  alpha_xx          use "x"     or  "xx"  )
+                                 ( for  alpha_zz          use "z"     or  "zz"  )
+                                 ( for  isotropy          use "iso"   or  "mp" or "mean" )
+                                 ( for  anisotropy        use "aniso" or  "g"  or "diff" )
+                                 ( for  all the above     use "all"   or  "ALL" )
 
