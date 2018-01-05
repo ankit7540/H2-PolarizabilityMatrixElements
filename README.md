@@ -28,7 +28,7 @@ Local installation of :
     > sys.path.append("..")
      
 5. Import the `ME-module` which should be in your current folder.
-    > import ME-module
+    > import rovibME
 6. If all requirements are met the following output should be produced.
     ```
     Dimensions of isotropy matrix : (44, 176)
@@ -37,7 +37,7 @@ Local installation of :
     ...ready.
     ```
 7. Use the following command to do computation of the matrix element.
-    > ME-module.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
+    > rovibME.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     
     where the parameters are described below: 
       
@@ -56,17 +56,17 @@ A few matrix elements and their corresponding commands are shown below,
 
 - ![f1] for H2 
  
-```ME-module.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
+```rovibME.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
 
 
 - ![f2] for D2
 
-```ME-module.MEcompute("D2",2,1,1,1,"0.15","H","g")``` 
+```rovibME.MEcompute("D2",2,1,1,1,"0.15","H","g")``` 
 
 
 - ![f3] for HD
 
-```ME-module.MEcompute("HD",2,1,1,1,3550,"A","zz")``` 
+```rovibME.MEcompute("HD",2,1,1,1,3550,"A","zz")``` 
  
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
 [f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
