@@ -38,7 +38,7 @@ This repository contains :
     - vl   =    vibrational state for the bra, vl = [0,4]
     - Jl   =    rotational state for the bra,  Jl = [0,10]
     - vr   =    vibrational state for the ket, vr = [0,4]
-    - Jr   =    rotational state for the bra,  Jr = [0,10]
+    - Jr   =    rotational state for the ket,  Jr = [0,10]
     - wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
     - wavelength_unit = specify unit using the specifier, ( for  Hartree use "H" or "h" , for  nanometers use "n" or "nm" , for  Angstrom use "a" or "A"  )
     - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above  use "all"   or  "ALL" .
@@ -54,7 +54,7 @@ A few matrix elements and their corresponding commands are shown below,
 
 - ![f2] for D2
 
-```ME-module.MEcompute("D2",2,1,1,1,355,"0.15","H")``` 
+```ME-module.MEcompute("D2",2,1,1,1,"0.15","H","g")``` 
 
 
 - ![f3] for HD
