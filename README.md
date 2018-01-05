@@ -1,18 +1,18 @@
 # H2-PolarizabilityMatrixElements
-Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements(for rovibrational states) within the ground electronic state. 
+Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements(for rovibrational states) within the ground electronic state. The program evaluates the following integral.
 
 ![integral image][img0]
 
 
 This repository contains :
- - Internuclear distance dependent polarizability for molecualr hydrogen
+ - Internuclear distance dependent polarizability for molecualr hydrogen (Omega in the above integral).
  - Rovibrational wavefunctions for H2, HD and D2 for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
 **Requirements**
 
 Local installation of : 
-  - python2 / python3
+  - python2 or python3
   - numpy
   - scipy
  
