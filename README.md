@@ -1,5 +1,8 @@
 # H2-PolarizabilityMatrixElements
-Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements(for rovibrational states) within the ground electronic state.
+Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements(for rovibrational states) within the ground electronic state. 
+
+![integral image][img0]
+
 
 This repository contains :
  - Internuclear distance dependent polarizability for molecualr hydrogen
@@ -68,3 +71,5 @@ A few matrix elements and their corresponding commands are shown below,
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
 [f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
 [f3]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\alpha_{zz}|\psi_{v=1,J=1}\rangle
+
+[integral]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/01-05-2018_8.png "Logo Title Text 2"
