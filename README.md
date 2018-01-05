@@ -14,6 +14,7 @@ Local installation of :
   - scipy
  
 ====== 
+
 **To use the program (in a UNIX environment or MS-DOS environment) follow the steps.**
 1. Download the zip file and unzip it to a folder.
 2. Move to the unzipped folder on the console.
