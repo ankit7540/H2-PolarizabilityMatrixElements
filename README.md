@@ -61,7 +61,7 @@ A few matrix elements and their corresponding commands are shown below,
 
 - ![f2] for D2
 
-```rovibME.MEcompute("D2",2,1,1,1,"0.15","H","g")``` 
+```rovibME.MEcompute("D2",2,1,1,1,0.15,"H","g")``` 
 
 
 - ![f3] for HD
