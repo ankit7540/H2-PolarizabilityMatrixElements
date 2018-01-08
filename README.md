@@ -10,15 +10,17 @@ This repository contains :
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
 **Requirements**
+---
 
 Local installation of : 
   - python2 or python3
   - numpy
   - scipy
  
-====== 
+ 
 
-**To use the program (in a UNIX environment or MS-DOS environment) follow the steps.**
+**Using the program (in a UNIX environment or MS-DOS environment) follow the steps.**
+---
 1. Download the zip file and unzip it to a folder.
 2. Move to the unzipped folder on the console.
 3. Initialize python by `python3`
@@ -51,6 +53,7 @@ Local installation of :
     - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above  use "all"   or  "ALL" .
 
 **Examples**
+---
 
 A few matrix elements and their corresponding commands are shown below,
 
