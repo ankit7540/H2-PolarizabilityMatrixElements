@@ -19,7 +19,7 @@ Local installation of :
  
  
 
-**Using the program (in a UNIX environment or MS-DOS environment) follow the steps.**
+**Using the program**
 ---
 1. Download the zip file and unzip it to a folder.
 2. Move to the unzipped folder on the console.
@@ -50,7 +50,7 @@ Local installation of :
     - Jr   =    rotational state for the ket,  Jr = [0,10]
     - wavelength =  wavelength within the specified range ( 0.25 - 0.0345 Hartree;  182.253410111 - 1320.67688486  nm;  1822.53410111 - 13206.7688486  Angstrom ). Specify unit accordingly in the next parameter.
     - wavelength_unit = specify unit using the specifier, ( for  Hartree use "H" or "h" , for  nanometers use "n" or "nm" , for  Angstrom use "a" or "A"  )
-    - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above  use "all"   or  "ALL" .
+    - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above 4 properties  use "all"   or  "ALL" .
 
 **Examples**
 ---
