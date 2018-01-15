@@ -33,7 +33,7 @@ else :
 #********************************************************************
 
 # function to the matrix element for certain rovibrational state
-def MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
+def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     '''#  parameters:
     # mol  =    molecule (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
     # vl   =    vibrational state for the bra, vl = [0,4]
