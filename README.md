@@ -1,12 +1,11 @@
-# H2-PolarizabilityMatrixElements
+# H<sub>2</sub>-PolarizabilityMatrixElements
 Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements(for rovibrational states) within the ground electronic state. The program evaluates the following integral.
 
 ![integral image][img0]
 
-
 This repository contains :
- - Internuclear distance dependent polarizability for molecualr hydrogen (Omega in the above integral).
- - Rovibrational wavefunctions for H2, HD and D2 for v=0--4 and J=0--10.
+ - Internuclear distance dependent polarizability for molecular hydrogen (Omega in the above integral).
+ - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
 **Requirements**
@@ -23,27 +22,26 @@ Local installation of :
 ---
 1. Download the zip file and unzip it to a folder.
 2. Move to the unzipped folder on the console.
-3. Initialize python by `python3`
-4. In the python console, import the `sys` module and add the current folder to path allowing to import the module in the current folder.
+3. In the python console, import the `sys` module and add the current folder to path allowing to import the module in the current folder.
     > import sys
     
     > sys.path.append("..")
      
-5. Import the `rovibME` which should be in your current folder.
+4. Import the `rovibME` which should be in your current folder.
     > import rovibME
-6. If all requirements are met the following output should be produced.
+5. If all requirements are met the following output should be produced.
     ```
     Dimensions of isotropy matrix : (44, 176)
     Dimensions of anisotropy matrix : (44, 176)
     Available wavelength range:  0.25 - 0.0345 Hartree;  182.253410111 - 1320.67688486  nm;  1822.53410111 - 13206.7688486  Angstrom.
     ...ready.
     ```
-7. Use the following command to do computation of the matrix element.
+6. Use the following command to do computation of the matrix element.
     > rovibME.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     
     where the parameters are described below: 
       
-    - mol  =    molecule specification (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
+    - mol  =    molecule specification (for H<sub>2</sub> enter "H2", for D<sub>2</sub> enter "D2", for HD enter "HD")
     - vl   =    vibrational state for the bra, vl = [0,4]
     - Jl   =    rotational state for the bra,  Jl = [0,10]
     - vr   =    vibrational state for the ket, vr = [0,4]
@@ -57,12 +55,12 @@ Local installation of :
 
 A few matrix elements and their corresponding commands are shown below,
 
-- ![f1] for H2 
+- ![f1] for H<sub>2</sub> 
  
 ```rovibME.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
 
 
-- ![f2] for D2
+- ![f2] for D<sub>2</sub>
 
 ```rovibME.MEcompute("D2",2,1,1,1,0.15,"H","g")``` 
 
