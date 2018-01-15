@@ -28,7 +28,7 @@ if not(alpha_xx.shape ==  alpha_zz.shape  or len(omega)==alpha_xx.shape[0] ):
 else :
     omega_nm=(1e7/(omega*219474.6313702000))
     omega_A=(omega_nm*10)
-    print("Available wavelength range: ",round(omega[0],4),"-",round(omega[-1],4),"Hartree; ",round(omega_nm[0],4),"-",round(omega_nm[-1],4)," nm; ",round(omega_A[0],4),"-",round(omega_A[-1],4)," Angstrom.")
+    
     print("Available wavelength range: {0} - {1} Hartree; {2} - {3} nm; {4} - {5} Angstrom".format(round(omega[0],4),round(omega[-1],4),round(omega_nm[0],4),round(omega_nm[-1],4),round(omega_A[0],4),round(omega_A[-1],4)   ))
     print("...ready.")
 #********************************************************************
