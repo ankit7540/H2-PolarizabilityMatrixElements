@@ -61,6 +61,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     # set a dictionary for output array
     d={'output':[0]}
     #----------------------------------------------------------------
+    # interpolation function defined here and is used later.
     def interpolate2D_common(input2D,originalx,finalx):
         inputSize=input2D.shape
         tempx=np.zeros((len(originalx),1))
@@ -124,7 +125,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
         print("Default unit of nm will be used.")
         omegaFinal=wv
 
-    print("Wavelength in nanometer :", omegaFinal)
+    print("Wavelength in nanometer : {0}".format(round(omegaFinal,6)))
 
     #print(omega_nm[0],omega_nm[-1])
     if omegaFinal < omega_nm[0] or omegaFinal > omega_nm[-1]:
