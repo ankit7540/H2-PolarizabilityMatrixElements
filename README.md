@@ -34,7 +34,6 @@ Local installation of :
     Dimensions of isotropy matrix : (44, 176)
     Dimensions of anisotropy matrix : (44, 176)
     Available wavelength range: 0.25 - 0.0345 Hartree; 182.2534 - 1320.6769 nm; 1822.5341 - 13206.7688 Angstrom ...ready.
-
     ```
 6. Use the following command to do computation of the matrix element.
     > rovibME.compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
