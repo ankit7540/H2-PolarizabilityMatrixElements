@@ -37,7 +37,7 @@ Local installation of :
     ...ready.
     ```
 6. Use the following command to do computation of the matrix element.
-    > rovibME.MEcompute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
+    > rovibME.compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     
     where the parameters are described below: 
       
@@ -57,17 +57,17 @@ A few matrix elements and their corresponding commands are shown below,
 
 - ![f1] for H<sub>2</sub> 
  
-```rovibME.MEcompute("H2",0,0,0,0,488,"n","mp")``` 
+```rovibME.compute("H2",0,0,0,0,488,"n","mp")``` 
 
 
 - ![f2] for D<sub>2</sub>
 
-```rovibME.MEcompute("D2",2,1,1,1,0.15,"H","g")``` 
+```rovibME.compute("D2",2,1,1,1,0.15,"H","g")``` 
 
 
 - ![f3] for HD
 
-```rovibME.MEcompute("HD",2,1,1,1,3550,"A","zz")``` 
+```rovibME.compute("HD",2,1,1,1,3550,"A","zz")``` 
  
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
 [f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
