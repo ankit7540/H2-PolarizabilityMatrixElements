@@ -4,7 +4,7 @@ Set of data and python programs for interpolation (of wavelength dependent polar
 ![integral image][img0]
 
 This repository contains :
- - Internuclear distance dependent polarizability for molecular hydrogen (Omega in the above integral).
+ - Internuclear distance dependent polarizability (&alpha<sub>xx</sub>) for molecular hydrogen (Omega in the above integral).
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
