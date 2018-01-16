@@ -1,5 +1,5 @@
 # H<sub>2</sub>-PolarizabilityMatrixElements
-Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements(for rovibrational states) within the ground electronic state. The program evaluates the following integral.
+Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements (for rovibrational states) within the ground electronic state. The program evaluates the following integral.
 
 ![integral image][img0]
 
