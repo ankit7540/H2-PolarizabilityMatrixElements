@@ -19,6 +19,7 @@ Local installation of :
 **Using the program**
 ---
 1. Download the zip file and unzip it to a folder, or simply clone the repository if using `git`by executing
+
 ``` git clone https://github.com/ankit7540/H2-PolarizabilityMatrixElements.git ```
 
 2. Move to the unzipped folder on the console/terminal.
