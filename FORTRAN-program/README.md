@@ -38,3 +38,26 @@ to generate the executable `computeME`
 3. Type in the parameters and press enter. For example,
  `H2 1 0 2 3 532 nm alpha_mean`
 
+
+**Examples**
+---
+
+A few matrix elements and their corresponding commands are shown below,
+
+- ![f1] for H<sub>2</sub> 
+ 
+```H2 0 0 0 0 488 nm alpha_mean``` 
+
+
+- ![f2] for D<sub>2</sub>
+
+```D2 2 1 1 1 0.15 Hartree  gamma )``` 
+
+
+- ![f3] for HD
+
+```HD 2 1 1 1 3550 A zz alpha_par )``` 
+ 
+[f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
+[f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
+[f3]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\alpha_{\parallel}|\psi_{v=1,J=1}\rangle
