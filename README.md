@@ -15,7 +15,7 @@ Polarizability anisotropy | <img src="https://github.com/ankit7540/H2-Polarizabi
 
 The above properties are available as Omega in the above integral for H<sub>2</sub> HD and D<sub>2</sub>.
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
- - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
+ - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.25 to 1320.6 nm.
  
 **Requirements**
 ---
