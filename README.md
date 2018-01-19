@@ -76,7 +76,7 @@ A few matrix elements and their corresponding commands are shown below,
 [f3]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\alpha_{zz}|\psi_{v=1,J=1}\rangle
 
 [img0]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/01-05-2018_82.png "Logo Title Text 2"
-[img1]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_perp.png "Logo alpha_{perp}"
-[img2]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_parallel.png "Logo alpha_{paralell}"
-[img3]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_mp.png "Logo alpha_{mp}"
-[img4]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/gamma.png "Logo alpha_{aniso}"
+[img1]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png "Logo alpha_{perp}"
+[img2]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_parallel.png "Logo alpha_{paralell}"
+[img3]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png "Logo alpha_{mp}"
+[img4]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png "Logo alpha_{aniso}"
