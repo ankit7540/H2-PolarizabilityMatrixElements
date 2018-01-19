@@ -1,6 +1,6 @@
 Python-module `rovibME`
 ----------------
-Python module `rovibME` for the computation of matrix elements.
+`rovibME` is python module which performs computation of matrix elements for polarizability.
 
 
 Requirements
