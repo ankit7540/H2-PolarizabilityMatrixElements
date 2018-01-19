@@ -14,12 +14,13 @@ Usage
 gfortram -o computeME rovibME
 
 '''
+
 to generate the executable `computeME`
 
 2. Next, execute `./computeME` which should produce the following message and input details.
 
-'''
 
+'''
  Give input parameters: molecule name, v_bra, J_bra, v_ket, J_ket, laser wavelength lambda, wavelength unit, Omega
  (example: H2 1 0 2 3 532 nm alpha_mean)
 
@@ -33,7 +34,6 @@ to generate the executable `computeME`
        possible values of Omega are: alpha_par, alpha_perp, alpha_mean, gamma
 
  now give your input:
- 
 '''
 
 3. Type in the parameters and press enter. For example,
