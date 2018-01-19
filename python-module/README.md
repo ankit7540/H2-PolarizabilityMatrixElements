@@ -1,4 +1,4 @@
-Python-module
+Python-module `rovibME`
 ----------------
 Python module `rovibME` for the computation of matrix elements.
 
