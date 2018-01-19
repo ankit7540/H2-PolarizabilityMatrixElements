@@ -4,7 +4,7 @@ Set of data and python programs for interpolation (of wavelength dependent polar
 ![integral image][img0]
 
 This repository contains :
- - Internuclear distance dependent polarizability ( <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\perp}" title="\alpha_{\perp}" /></a> , <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\parallel}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\parallel}" title="\alpha_{\parallel}" /></a>, 
+ - Internuclear distance dependent polarizability (![alpha_{perp}][img1])  (![alpha_{parallel}][img2])(![alpha_{mp}][img3])(![gamma][img4])   ( <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\perp}" title="\alpha_{\perp}" /></a> , <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\parallel}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\parallel}" title="\alpha_{\parallel}" /></a>, 
  <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{\alpha}=(2\alpha_{\perp}&plus;\alpha_{\parallel})/3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\bar{\alpha}=(2\alpha_{\perp}&plus;\alpha_{\parallel})/3" title="\bar{\alpha}=(2\alpha_{\perp}+\alpha_{\parallel})/3" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=\gamma=\alpha_{\parallel}-\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\gamma=\alpha_{\parallel}-\alpha_{\perp}" title="\gamma=\alpha_{\parallel}-\alpha_{\perp}" /></a>) for molecular hydrogen (Omega in the above integral).
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
@@ -76,3 +76,7 @@ A few matrix elements and their corresponding commands are shown below,
 [f3]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\alpha_{zz}|\psi_{v=1,J=1}\rangle
 
 [img0]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/01-05-2018_82.png "Logo Title Text 2"
+[img1]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_perp.png "Logo alpha_{perp}"
+[img2]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_parallel.png "Logo alpha_{paralell}"
+[img3]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_mp.png "Logo alpha_{mp}"
+[img4]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/gamma.png "Logo alpha_{aniso}"
