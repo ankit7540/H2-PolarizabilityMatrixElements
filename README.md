@@ -13,22 +13,7 @@ Polarizability parallel to the internuclear axis | <img src="https://github.com/
 Mean polarizability | <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png" width="195" height="28" />
 Polarizability anisotropy | <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png" width="155" height="28" />
 
-
-
-c
-<img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" width="30" height="15" />
-Content in the first column 
- 
- <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" width="30" height="15" />
- 
-  <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_parallel.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_parallel.png" width="23" height="20" />
-  
-   <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png" width="195" height="28" />
-   
-    <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png" width="155" height="28" />
- 
- (![alpha_{perp}][img1])  (![alpha_{parallel}][img2])(![alpha_{mp}][img3])(![gamma][img4])   ( <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\perp}" title="\alpha_{\perp}" /></a> , <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\parallel}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\parallel}" title="\alpha_{\parallel}" /></a>, 
- <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{\alpha}=(2\alpha_{\perp}&plus;\alpha_{\parallel})/3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\bar{\alpha}=(2\alpha_{\perp}&plus;\alpha_{\parallel})/3" title="\bar{\alpha}=(2\alpha_{\perp}+\alpha_{\parallel})/3" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=\gamma=\alpha_{\parallel}-\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\gamma=\alpha_{\parallel}-\alpha_{\perp}" title="\gamma=\alpha_{\parallel}-\alpha_{\perp}" /></a>) for molecular hydrogen (Omega in the above integral).
+The above properties are available as Omega in the above integral for H<sub>2</sub>, D<sub>2</sub> and HD.
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
