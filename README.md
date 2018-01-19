@@ -6,7 +6,7 @@ Set of data and python programs for interpolation (of wavelength dependent polar
 This repository contains :
  - Internuclear distance dependent polarizability   
  
- <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_perp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/image/alpha_perp.png" width="155" height="28" />
+ <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" width="155" height="28" />
  
  (![alpha_{perp}][img1])  (![alpha_{parallel}][img2])(![alpha_{mp}][img3])(![gamma][img4])   ( <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\perp}" title="\alpha_{\perp}" /></a> , <a href="https://www.codecogs.com/eqnedit.php?latex=\alpha_{\parallel}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\alpha_{\parallel}" title="\alpha_{\parallel}" /></a>, 
  <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{\alpha}=(2\alpha_{\perp}&plus;\alpha_{\parallel})/3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\bar{\alpha}=(2\alpha_{\perp}&plus;\alpha_{\parallel})/3" title="\bar{\alpha}=(2\alpha_{\perp}+\alpha_{\parallel})/3" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=\gamma=\alpha_{\parallel}-\alpha_{\perp}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\gamma=\alpha_{\parallel}-\alpha_{\perp}" title="\gamma=\alpha_{\parallel}-\alpha_{\perp}" /></a>) for molecular hydrogen (Omega in the above integral).
