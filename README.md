@@ -41,22 +41,21 @@ Local installation of :
     > import rovibME
 5. If all requirements are met the following output should be produced.
     ```
-    Polarizability data dimension checked.
-
-
     Give  rovibME.compute  command with parameters:
         rovibME.compute(molecule, bra_v, bra_J, ket_v, ket_J, lambda, unit of lambda, operator)
          for example:  rovibME.compute("H2",0,2,0,4,488,"n","mp")
+                       rovibME.compute("D2",1,0,1,0,"static","n","all")
 
                 molecule = for H2 enter "H2", for D2 enter "D2", for HD enter "HD"
                 bra_v    = vibrational state, v=[0,4]
                 bra_J    = rotataional state, J=[0,10]
                 ket_v    = vibrational state, v=[0,4]
                 ket_J    = rotataional state, J=[0,10]
-                lambda   = wavelength in Hartree, nm or Angstrom
+                lambda   = wavelength in Hartree, nm or Angstrom, for static specify "s" or "static" here
                 unit of lambda =  for  Hartree           use "H" or "h"
                                   for  nanometers        use "n" or "nm"
                                   for  Angstrom          use "a" or "A"
+                                  if static property is asked then this parameter can be any of the three
                 Available wavelength range: 0.25 - 0.0345 Hartree;
                                             182.2534 - 1320.6769 nm;
                                             1822.5341 - 13206.7688 Angstrom
