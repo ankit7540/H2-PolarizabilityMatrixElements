@@ -44,7 +44,7 @@ Local installation of :
     Polarizability data dimension checked.
 
 
-Give  rovibME.compute  command with parameters:
+    Give  rovibME.compute  command with parameters:
         rovibME.compute(molecule, bra_v, bra_J, ket_v, ket_J, lambda, unit of lambda, operator)
          for example:  rovibME.compute("H2",0,2,0,4,488,"n","mp")
 
@@ -65,7 +65,7 @@ Give  rovibME.compute  command with parameters:
                                   isotropy or mean polarizability given by "iso" or "mp" or "mean"
                                   anisotropy or polarizability difference or gamma given by "aniso" or "g"  or "diff"
                                   for all the above use "all"   or  "All"or "ALL"
-...ready.
+    ...ready.
 
     ```
 6. Use the following command to do computation of the matrix element.
