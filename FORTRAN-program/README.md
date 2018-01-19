@@ -12,7 +12,6 @@ Usage
 
 ```
 gfortram -o computeME rovibME
-
 ```
 
 to generate the executable `computeME`
@@ -37,5 +36,5 @@ to generate the executable `computeME`
 ```
 
 3. Type in the parameters and press enter. For example,
- H2 1 0 2 3 532 nm alpha_mean
+ `H2 1 0 2 3 532 nm alpha_mean`
 
