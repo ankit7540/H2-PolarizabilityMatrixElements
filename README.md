@@ -41,10 +41,32 @@ Local installation of :
     > import rovibME
 5. If all requirements are met the following output should be produced.
     ```
-    Dimensions of isotropy matrix : (44, 176)
-    Dimensions of anisotropy matrix : (44, 176)
-    Available wavelength range: 0.25 - 0.0345 Hartree; 182.2534 - 1320.6769 nm; 1822.5341 - 13206.7688 Angstrom
-    ...ready.
+    Polarizability data dimension checked.
+
+
+Give  rovibME.compute  command with parameters:
+        rovibME.compute(molecule, bra_v, bra_J, ket_v, ket_J, lambda, unit of lambda, operator)
+         for example:  rovibME.compute("H2",0,2,0,4,488,"n","mp")
+
+                molecule = for H2 enter "H2", for D2 enter "D2", for HD enter "HD"
+                bra_v    = vibrational state, v=[0,4]
+                bra_J    = rotataional state, J=[0,10]
+                ket_v    = vibrational state, v=[0,4]
+                ket_J    = rotataional state, J=[0,10]
+                lambda   = wavelength in Hartree, nm or Angstrom
+                unit of lambda =  for  Hartree           use "H" or "h"
+                                  for  nanometers        use "n" or "nm"
+                                  for  Angstrom          use "a" or "A"
+                Available wavelength range: 0.25 - 0.0345 Hartree;
+                                            182.2534 - 1320.6769 nm;
+                                            1822.5341 - 13206.7688 Angstrom
+                operator        = alpha(perpendicular) = alpha_xx given by "xx" or "x"
+                                  alpha(parallel) = alpha_xx given by "zz" or "z"
+                                  isotropy or mean polarizability given by "iso" or "mp" or "mean"
+                                  anisotropy or polarizability difference or gamma given by "aniso" or "g"  or "diff"
+                                  for all the above use "all"   or  "All"or "ALL"
+...ready.
+
     ```
 6. Use the following command to do computation of the matrix element.
     > rovibME.compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
