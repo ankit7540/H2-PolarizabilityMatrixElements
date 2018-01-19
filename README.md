@@ -13,7 +13,7 @@ Polarizability parallel to the internuclear axis | <img src="https://github.com/
 Mean polarizability | <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_mp.png" width="195" height="28" />
 Polarizability anisotropy | <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/gamma.png" width="155" height="28" />
 
-The above properties are available as Omega in the above integral for H<sub>2</sub>, D<sub>2</sub> and HD.
+The above properties are available as Omega in the above integral for H<sub>2</sub> HD and D<sub>2</sub>.
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.5 to 1320.6 nm.
  
