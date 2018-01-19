@@ -57,3 +57,27 @@ Usage
     - wavelength =  wavelength within the specified range ( 0.25 - 0.0345 Hartree;  182.2534 - 1320.6768  nm;  1822.5341 - 13206.7688  Angstrom ). Specify unit accordingly in the next parameter.
     - wavelength_unit = specify unit using the specifier, ( for  Hartree use "H" or "h" , for  nanometers use "n" or "nm" , for  Angstrom use "a" or "A"  )
     - operator   = property namely alpha_xx, alpha_zz, mean polarizability (isotropy) and anisotropy. Specify operator using the specifier. ( For  alpha_xx  use "x"     or  "xx" , for  alpha_zz  use "z"     or  "zz" , for  isotropy  use "iso"   or  "mp" or "mean" , for  anisotropy use "aniso" or  "g"  or "diff" and for  all the above 4 properties  use "all"   or  "ALL" .
+    
+
+**Examples**
+---
+
+A few matrix elements and their corresponding commands are shown below,
+
+- ![f1] for H<sub>2</sub> 
+ 
+```rovibME.compute("H2",0,0,0,0,488,"n","mp")``` 
+
+
+- ![f2] for D<sub>2</sub>
+
+```rovibME.compute("D2",2,1,1,1,0.15,"H","g")``` 
+
+
+- ![f3] for HD
+
+```rovibME.compute("HD",2,1,1,1,3550,"A","zz")``` 
+ 
+[f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
+[f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
+[f3]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\alpha_{\parallel}|\psi_{v=1,J=1}\rangle
