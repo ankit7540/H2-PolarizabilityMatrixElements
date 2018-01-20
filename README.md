@@ -4,7 +4,7 @@ Set of data and python programs for interpolation (of wavelength dependent polar
 ![integral image][img0]
 
 This repository contains :
- - Internuclear distance dependent polarizability  ,
+ - Internuclear distance dependent polarizability,
  
 Property | Definition
 ------------ | -------------
@@ -21,13 +21,13 @@ The above properties are available as Omega in the above integral for H<sub>2</s
 --- 
 The programs for computation of matrix element are written in FORTRAN and Python. These are independent programs which do the same job.
 
-In the case of FORTRAN, two different programs exist, (i) `rovibME_dynamic.f` for wavelength dependent matrix elements and (ii) `rovibME_static.f` for static ones.
+In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements and *(ii)* `rovibME_static.f` for static ones.
 
-In the case of Python, one program exists `rovibME.py` which deals with both static and dynamic matrix elements.
+In the case of Python, one program `rovibME.py` deals with both static and dynamic matrix elements.
 
 **Usage**
 ---
-Refer to the `README.md` in the FORTRAN-program folder and the Python-module folder respectively.
+Refer to the `README.md` in the FORTRAN-program folder and the Python-module folder respectively according to your usage.
 
 
 **Comments of numerical accuracy**
