@@ -6,7 +6,7 @@ Set of data and python programs for interpolation (of wavelength dependent polar
 This repository contains :
  - Internuclear distance dependent polarizability  ,
  
-Property | Symbol
+Property | Definition
 ------------ | -------------
 Polarizability perpendicular to the internuclear axis | <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_perp.png" width="30" height="15" />
 Polarizability parallel to the internuclear axis | <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_parallel.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/alpha_parallel.png" width="23" height="20" />
@@ -17,6 +17,24 @@ The above properties are available as Omega in the above integral for H<sub>2</s
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
  - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.25 to 1320.6 nm.
  
+**Available programs**
+--- 
+The programs for computation of matrix element are written in FORTRAN and Python. These are independent programs which do the same job.
+
+In the case of FORTRAN, two different programs exist, (i) `rovibME_dynamic.f` for wavelength dependent matrix elements and (ii) `rovibME_static.f` for static ones.
+
+In the case of Python, one program exists `rovibME.py` using which both static and dynamic MEs can be computed.
+
+**Usage**
+---
+Refer to the `README` in FORTRAN-program folder and Python-module respectively.
+
+
+**Comments of numerical accuracy**
+---
+The integral calculation is accurate usually to ~5e-7. The net numerical uncertainity in the computed matrix element however is  1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline procedures and physical constants. 
+
+
 **Requirements**
 ---
 
