@@ -444,7 +444,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
         # step 5: compute the integral using adaptive Quadrature
         result=integrate.quadrature(integrand,0.2,4.48,tol=1.0e-6,vec_func=False,maxiter=1000)
         rounderr=round(result[1],7)
-        print("{0} < v={1}J={2} | {3} | v={4}J={5} >  =  {6} a.u. (err : {7}) ". format(mol,vl,Jl,
+        print("{0} < v={1} J={2} | {3} | v={4} J={5} >  =  {6} a.u. (Integration err: {7}) ". format(mol,vl,Jl,
              name[i],vr,Jr,abs(round(result[0],7)  ) , rounderr ) )
 
 # ************************************************************************
