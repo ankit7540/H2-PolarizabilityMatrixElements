@@ -79,7 +79,7 @@ A few matrix elements and their corresponding commands are shown below,
 ```rovibME.compute("HD",2,1,1,1,3550,"A","zz")``` 
 
 - Static mean polarizability for H<sub>2</sub> in the ground vibrationala and rotational state.
-```rovibME.compute("H2",0,0,0,0,"static","nm","mp")
+```rovibME.compute("H2",0,0,0,0,"static","nm","mp")```
  
  
  
