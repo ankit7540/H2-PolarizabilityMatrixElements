@@ -1,22 +1,22 @@
-`rovibME` FORTRAN program
+`rovibME_dynamic` and `rovibME_static` FORTRAN programs
 -----------------------------
 A FORTRAN program for the computation of rovibrational matrix elements for for H<sub>2</sub>, HD and D<sub>2</sub> within v=0--4 and J=0--10.
 
 Compiling the code
 -----------------------------
-Presently the program is tested with `gfortran`.
+Program has been tested with `gfortran`
 
 Usage
 -----------------------------
 1. Under the FORTRAN-program directory compile the code using `gfortran`, for example,
 
 ```
-gfortram -o computeME rovibME
+gfortram -o ComputeDynamic rovibME_dynamic.f
 ```
 
 to generate the executable `computeME`
 
-2. Next, execute `./computeME` which should produce the following message and input details.
+2. Next, execute `./ComputeDynamic` which should produce the following message and input details.
 
 
 ```
@@ -38,6 +38,21 @@ to generate the executable `computeME`
 3. Type in the parameters and press enter. For example,
  `H2 1 0 2 3 532 nm alpha_mean`
 
+For static polarizabilities, compile as `gfortram -o ComputeStatic rovibME_dynamic.f` and use the executable.
+
+```
+ COMPUTE STATIC POLARIZABILITY MATRIX ELEMENTS
+ Give input parameters: molecule name, v_bra, J_bra, v_ket, J_ket, Omega
+ (example: H2 1 0 2 3 alpha_mean)
+
+ info: molecule name should be H2, D2, or HD
+       v should be in the interval [0..4]
+       J should be in the interval [0..10]
+       possible values of Omega are: alpha_par, alpha_perp, alpha_mean, gamma
+
+ now give your input:
+ ```
+ 
 
 **Examples**
 ---
