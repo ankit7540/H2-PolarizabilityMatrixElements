@@ -41,7 +41,8 @@ Cubic spline interpolation procedure used in FORTRAN and python codes has been a
 Adaptive Gausssian Quadrature implemented in SciPy has been used.
 
 FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
-Python code by by Ankit Raj.
+
+Python code by Ankit Raj.
 
 
 
