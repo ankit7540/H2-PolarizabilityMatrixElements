@@ -32,7 +32,7 @@ Refer to the `README.md` in the FORTRAN-program folder and the Python-module fol
 
 **Comments of numerical accuracy**
 ---
-The integral calculation is accurate usually to ~5e-7. The net numerical uncertainity in the computed matrix element however is  1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline procedures and physical constants. 
+The integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline procedures and physical constants. 
 
 **Credits**
 ---
