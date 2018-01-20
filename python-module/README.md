@@ -81,6 +81,8 @@ A few matrix elements and their corresponding commands are shown below,
 - Static mean polarizability for H<sub>2</sub> in the ground vibrationala and rotational state.
 ```rovibME.compute("H2",0,0,0,0,"static","nm","mp")
  
+ 
+ 
 [f1]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=0,J=0}|\bar{\alpha}|\psi_{v=0,J=0}\rangle
 [f2]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\gamma|\psi_{v=1,J=1}\rangle
 [f3]: http://chart.apis.google.com/chart?cht=tx&chl=\langle\psi_{v=2,J=1}|\alpha_{\parallel}|\psi_{v=1,J=1}\rangle
