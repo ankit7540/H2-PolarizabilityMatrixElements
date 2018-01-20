@@ -294,7 +294,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
         print("Error : v value out of range. vl and vr = [0,4]. Exiting ")
         quit()
 
-    if Jl < 0  or Jr < 0 or Jl > 10 or Jr > 10 : 
+    if Jl < 0  or Jr < 0 or Jl > 15 or Jr > 15 : 
         print("Error : J value out of range. Jl and Jr =[0,15]. Exiting ")
         quit()
 
