@@ -199,9 +199,9 @@ else :
 
     print('\t\tmolecule = for H2 enter "H2", for D2 enter "D2", for HD enter "HD" ')
     print("\t\tbra_v    = vibrational state, v=[0,4]")
-    print("\t\tbra_J    = rotataional state, J=[0,10]")
+    print("\t\tbra_J    = rotataional state, J=[0,15]")
     print("\t\tket_v    = vibrational state, v=[0,4]")
-    print("\t\tket_J    = rotataional state, J=[0,10]")
+    print("\t\tket_J    = rotataional state, J=[0,15]")
     print('\t\tlambda   = wavelength in Hartree, nm or Angstrom, for static specify "s" or "static" here')
     print('\t\tunit of lambda =  for  Hartree           use "H" or "h"  ')
     print('\t\t\t          for  nanometers        use "n" or "nm" ')
@@ -226,9 +226,9 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     '''#  parameters:
     # mol  =    molecule (for H2 enter "H2", for D2 enter "D2", for HD enter "HD")
     # vl   =    vibrational state for the bra, vl = [0,4]
-    # Jl   =    rotational state for the bra,  Jl = [0,10]
+    # Jl   =    rotational state for the bra,  Jl = [0,15]
     # vr   =    vibrational state for the ket, vr = [0,4]
-    # Jr   =    rotational state for the ket,  Jr = [0,10]
+    # Jr   =    rotational state for the ket,  Jr = [0,15]
     # wavelength =  wavelength ( can be Hartree, nanometers or Angstrom)
     # wavelength_unit = specify unit using the specifier
                                 ( for  Hartree           use "H" or "h"  )
@@ -295,7 +295,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
         quit()
 
     if Jl < 0  or Jr < 0 or Jl > 10 or Jr > 10 : 
-        print("Error : J value out of range. Jl and Jr =[0,10]. Exiting ")
+        print("Error : J value out of range. Jl and Jr =[0,15]. Exiting ")
         quit()
 
     if not (mol == "H2"  or mol == "HD" or mol == "D2" ): 

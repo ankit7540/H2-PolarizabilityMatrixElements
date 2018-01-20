@@ -2,7 +2,7 @@
 
 	implicit none
 	integer maxviblev,maxrotlev,numdist,numfreq
-	parameter(maxviblev=4,maxrotlev=10,numdist=176,numfreq=44)
+	parameter(maxviblev=4,maxrotlev=15,numdist=176,numfreq=44)
 	integer ngrid
 	parameter(ngrid=1075)
 	integer i,j,k,l,brav,braJ,ketv,ketJ
@@ -93,7 +93,7 @@ C	#################################
 	write(*,*)'   '
 	write(*,*)'info: molecule name should be H2, D2, or HD'
 	write(*,*)'      v should be in the interval [0..4]'
-	write(*,*)'      J should be in the interval [0..10]'
+	write(*,*)'      J should be in the interval [0..15]'
 	write(*,*)'      units for lambda are: Hartree, nm, or A'
 	write(*,*)'      lambda should be in the interval ',
      *		  '[0.0345..0.25] Hartree'
