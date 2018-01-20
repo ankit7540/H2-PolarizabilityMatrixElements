@@ -349,8 +349,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
         elif not (wavelength_unit == "h" or wavelength_unit == "H" or wavelength_unit == "n" or wavelength_unit == "nm"
                   or wavelength_unit == "a" or wavelength_unit == "A" ):
             print("Message : Default unit of nm will be used.")
-
-        omegaFinal=wv
+            omegaFinal=wv
 
         if omegaFinal < omega_nm[0] or omegaFinal > omega_nm[-1]:
             sys.exit("Error : Requested wavelength is out of range. Exiting ")
