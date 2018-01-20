@@ -38,7 +38,7 @@ to generate the executable `computeME`
 3. Type in the parameters and press enter. For example,
  `H2 1 0 2 3 532 nm alpha_mean`
 
-For static polarizabilities, compile as shown above and use the executable. The following message should be produced asking for user input. 
+**For static polarizabilities**, compile as shown above and use the executable. The following message should be produced asking for user input. 
 
 ```
  COMPUTE STATIC POLARIZABILITY MATRIX ELEMENTS
