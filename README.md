@@ -36,13 +36,13 @@ The integral calculation is usually accurate to ~1e-6 or better. However, the ne
 
 **Credits**
 ---
-Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition (September 25, 1992).
+Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition.
 
 Adaptive Gausssian Quadrature implemented in SciPy has been used.
 
 FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 
-Python code by Ankit Raj.
+Python code by Ankit Raj (NCTU, Taiwan).
 
 
 
