@@ -1,6 +1,6 @@
 `rovibME_dynamic` and `rovibME_static` FORTRAN programs
 -----------------------------
-Programs for the computation of rovibrational matrix elements for for H<sub>2</sub>, HD and D<sub>2</sub> within v=0--4 and J=0--10.
+Programs for the computation of rovibrational matrix elements for for H<sub>2</sub>, HD and D<sub>2</sub> within v=0--4 and J=0--15.
 
 Compiling the code
 -----------------------------
