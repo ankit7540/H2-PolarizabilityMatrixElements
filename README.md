@@ -30,7 +30,7 @@ In the case of Python, one program `rovibME.py` deals with both static and dynam
 Refer to the `README.md` in the FORTRAN-program folder and the Python-module folder respectively according to your usage.
 
 
-**Comments of numerical accuracy**
+**Comments on numerical accuracy**
 ---
 The integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline procedures and physical constants. 
 
@@ -38,7 +38,7 @@ The integral calculation is usually accurate to ~1e-6 or better. However, the ne
 ---
 Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition.
 
-Adaptive Gausssian Quadrature implemented in SciPy has been used.
+For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used.
 
 FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 
