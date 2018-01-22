@@ -11,7 +11,7 @@ Usage
 1. Under the FORTRAN-program directory compile the code using `gfortran`, for example,
 
 ```
-gfortram -o ComputeDynamic rovibME_dynamic.f
+gfortran -o ComputeDynamic rovibME_dynamic.f
 ```
 
 to generate the executable `computeME`
