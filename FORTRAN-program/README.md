@@ -4,7 +4,7 @@ Programs for the computation of rovibrational matrix elements for for H<sub>2</s
 
 Compiling the code
 -----------------------------
-Program has been tested with `gfortran`
+Compilation has been tested with `gfortran` and `ifort`
 
 Usage
 -----------------------------
