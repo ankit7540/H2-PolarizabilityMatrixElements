@@ -1,5 +1,5 @@
 # H<sub>2</sub>-PolarizabilityMatrixElements
-Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements (for rovibrational states) within the ground electronic state. The program evaluates the following integral.
+Set of data on polarizability, FORTRAN and python programs for the interpolation (of polarizability over internuclear distance) and computation of the matrix elements over rovibrational states covering *J*=0--15 and *v*=0--4 within the ground electronic state. The programs evaluate the following integral.
 
 ![integral image][img0]
 
@@ -15,11 +15,11 @@ Polarizability anisotropy | <img src="https://github.com/ankit7540/H2-Polarizabi
 
 The above properties are available as Omega in the above integral for H<sub>2</sub> HD and D<sub>2</sub>.
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
- - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.25 to 1320.6 nm.
+ - A FORTRAN program and a python module which can be used to compute the static and wavelength dependent matrix elements. Wavelength range available is 182.25 to 1320.6 nm.
  
 **Available programs**
 --- 
-The programs for computation of matrix element are written in FORTRAN and Python. These are independent programs which do the same job.
+The programs for computation of matrix element (which includes cubic spline interpolation and numerical integration) are written in FORTRAN and Python. These are independent programs which do the same job.
 
 In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements and *(ii)* `rovibME_static.f` for static ones.
 
