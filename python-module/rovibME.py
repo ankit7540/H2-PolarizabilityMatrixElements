@@ -310,7 +310,7 @@ def compute(mol, vl, Jl, vr, Jr, wavelength, wavelength_unit, operator):
     #----------------------------------------------------------------
     # STATIC
     if (wavelength == "static" or wavelength == "s"):
-        print("Static")
+        print("\tStatic")
         n=0
         if (operator == "x" or operator == "xx" ):
             param=static_xx
