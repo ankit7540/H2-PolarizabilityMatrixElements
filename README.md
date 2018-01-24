@@ -39,7 +39,8 @@ The integral calculation is usually accurate to ~1e-6 or better. However, the ne
 ---
 Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition.
 
-For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used.
+For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used. 
+(**Ref :**  T. N. L. Patterson, Math. Comput. 22, 847 (1968); T. N. L. Patterson, Math. Comput. 23, 892 (1969);  R. Piessens, E. de Doncker-Kapenga, C. Uberhuber, and D. Kahaner, Quadpack - A Sub-routine Package for Automatic Integration (Springer-Verlag Berlin Heidelberg, 1983). )
 
 FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 
