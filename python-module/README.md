@@ -9,7 +9,7 @@ Python 2.x or Python 3.x with Numpy and Scipy modules
 
 Usage
 ----------------
-1. After cloning the respository and moving in the `python-module` directory, add the current folder to path allowing to import the module in the current folder.
+1. After cloning the respository and moving in the `python-module` directory, add the current folder to path allowing to import the module in the current folder (this is not needed with python3).
     > import sys
     
     > sys.path.append("..")
