@@ -1,17 +1,17 @@
 `rovibME_dynamic` and `rovibME_static` FORTRAN programs
 -----------------------------
-Programs for the computation of rovibrational matrix elements for for H<sub>2</sub>, HD and D<sub>2</sub> within v=0--4 and J=0--10.
+Programs for the computation of rovibrational matrix elements for for H<sub>2</sub>, HD and D<sub>2</sub> within v=0--4 and J=0--15.
 
 Compiling the code
 -----------------------------
-Program has been tested with `gfortran`
+Compilation has been tested with `gfortran` and `ifort`
 
 Usage
 -----------------------------
 1. Under the FORTRAN-program directory compile the code using `gfortran`, for example,
 
 ```
-gfortram -o ComputeDynamic rovibME_dynamic.f
+gfortran -o ComputeDynamic rovibME_dynamic.f
 ```
 
 to generate the executable `computeME`
@@ -25,7 +25,7 @@ to generate the executable `computeME`
 
  info: molecule name should be H2, D2, or HD
        v should be in the interval [0..4]
-       J should be in the interval [0..10]
+       J should be in the interval [0..15]
        units for lambda are: Hartree, nm, or A
        lambda should be in the interval [0.0345..0.25] Hartree
        lambda should be in the interval [182.26..1320.0] nm
@@ -47,7 +47,7 @@ to generate the executable `computeME`
 
  info: molecule name should be H2, D2, or HD
        v should be in the interval [0..4]
-       J should be in the interval [0..10]
+       J should be in the interval [0..15]
        possible values of Omega are: alpha_par, alpha_perp, alpha_mean, gamma
 
  now give your input:

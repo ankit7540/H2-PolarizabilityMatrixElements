@@ -1,5 +1,5 @@
 # H<sub>2</sub>-PolarizabilityMatrixElements
-Set of data and python programs for interpolation (of wavelength dependent polarizability) and computation of the matrix elements (for rovibrational states) within the ground electronic state. The program evaluates the following integral.
+Set of distance dependent data on polarizability together with FORTRAN and python programs for the interpolation (of polarizability over internuclear distance) and computation of the matrix elements over rovibrational states covering *J*=0--15 and *v*=0--4 within the ground electronic state. The programs evaluate the following integral: 
 
 ![integral image][img0]
 
@@ -15,11 +15,11 @@ Polarizability anisotropy | <img src="https://github.com/ankit7540/H2-Polarizabi
 
 The above properties are available as Omega in the above integral for H<sub>2</sub> HD and D<sub>2</sub>.
  - Rovibrational wavefunctions for H<sub>2</sub>, HD and D<sub>2</sub> for v=0--4 and J=0--10.
- - A python module which can be used to compute the wavelength dependent matrix elements. Wavelength range available is 182.25 to 1320.6 nm.
+ - A FORTRAN program and a python module which can be used to compute the static and wavelength dependent matrix elements. Wavelength range available is 182.25 to 1320.6 nm.
  
 **Available programs**
 --- 
-The programs for computation of matrix element are written in FORTRAN and Python. These are independent programs which do the same job.
+The programs for computation of matrix element (which includes cubic spline interpolation and numerical integration) are written in FORTRAN and Python. These are independent programs which do the same job.
 
 In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements and *(ii)* `rovibME_static.f` for static ones.
 
@@ -30,7 +30,7 @@ In the case of Python, one program `rovibME.py` deals with both static and dynam
 Refer to the `README.md` in the FORTRAN-program folder and the Python-module folder respectively according to your usage.
 
 
-**Comments of numerical accuracy**
+**Comments on numerical accuracy**
 ---
 The integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline procedures and physical constants. 
 
@@ -38,7 +38,7 @@ The integral calculation is usually accurate to ~1e-6 or better. However, the ne
 ---
 Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition.
 
-Adaptive Gausssian Quadrature implemented in SciPy has been used.
+For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used.
 
 FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 
