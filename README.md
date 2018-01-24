@@ -3,6 +3,7 @@ Set of distance dependent data on polarizability together with FORTRAN and pytho
 
 ![integral image][img0]
 
+where, <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmin.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmin.png" width="45" height="15" /> = 0.2 *a.u.* and  <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmax.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmax.png" width="75" height="25" /> = 4.48 *a.u.*
 This repository contains :
  - Internuclear distance dependent polarizability,
  
