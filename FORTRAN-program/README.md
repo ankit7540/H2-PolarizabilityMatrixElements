@@ -14,7 +14,7 @@ Usage
 gfortran -o ComputeDynamic rovibME_dynamic.f
 ```
 
-to generate the executable `computeME`
+to generate the executable `ComputeDynamic`
 
 2. Next, execute `./ComputeDynamic` which should produce the following message and ask for further input.
 
