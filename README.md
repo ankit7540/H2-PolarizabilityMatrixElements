@@ -41,7 +41,7 @@ Cubic spline interpolation procedure used in FORTRAN and python codes has been a
 
 For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used. 
 
-**References on integral procedure :**
+**References on the computation of the definite integral :**
 - T. N. L. Patterson, Math. Comput. 22, 847 (1968)
 - T. N. L. Patterson, Math. Comput. 23, 892 (1969)
 - R. Piessens, E. de Doncker-Kapenga, C. Uberhuber, and D. Kahaner, Quadpack - A Sub-routine Package for Automatic Integration (Springer-Verlag Berlin Heidelberg, 1983)
