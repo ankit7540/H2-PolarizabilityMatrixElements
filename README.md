@@ -28,12 +28,12 @@ In the case of Python, one program `rovibME.py` deals with both static and dynam
 
 **Usage**
 ---
-Refer to the `README.md` in the FORTRAN-program folder and the Python-module folder respectively according to your usage.
+Clone this repository or download as a zip file. According to the program of choice, refer to the `README.md` in the FORTRAN-program folder or in the Python-module folder. (Both versions do the the same computation and give same results.)
 
 
 **Comments on numerical accuracy**
 ---
-The integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline procedures and physical constants. 
+The definite integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline interpolation procedures and physical constants. 
 
 **Credits**
 ---
