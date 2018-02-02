@@ -37,7 +37,7 @@ The definite integral calculation is usually accurate to ~1e-6 or better. Howeve
 
 **Comments on the sign of the matrix element**
 ---
-Some matrix elements computed may have -ve sign which arises due to the phase of the wavefunction. In usual applications, the square of the matrix elements are needed and thus the sign maybe of no real consequence.
+Some matrix elements computed may have -ve sign which arises due to the phase of the wavefunction. In most applications, the square of the matrix elements are needed and thus the sign maybe of no real consequence.
 
 
 **Credits**
