@@ -35,13 +35,18 @@ Clone this repository or download as a zip file. According to the program of cho
 ---
 The definite integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline interpolation procedures and physical constants. 
 
+**Comments on the sign of the matrix element**
+---
+Some matrix elements computed may have -ve sign which arises due to the phase of the wavefunction. In usual applications, the square of the matrix elements are needed and thus the sign maybe of no real consequence.
+
+
 **Credits**
 ---
 Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition.
 
 For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used. 
 
-**References on the computation of the definite integral :**
+**References on the evaluation of the definite integral and implementation:**
 - T. N. L. Patterson, Math. Comput. 22, 847 (1968)
 - T. N. L. Patterson, Math. Comput. 23, 892 (1969)
 - R. Piessens, E. de Doncker-Kapenga, C. Uberhuber, and D. Kahaner, Quadpack - A Sub-routine Package for Automatic Integration (Springer-Verlag Berlin Heidelberg, 1983)
