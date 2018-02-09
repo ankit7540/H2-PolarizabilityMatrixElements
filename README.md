@@ -42,7 +42,7 @@ Some matrix elements computed may have -ve sign which arises due to the phase of
 
 **Credits**
 ---
-Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2 edition.
+Cubic spline interpolation procedure used in FORTRAN and python codes has been adapted from Numerical Recipes in FORTRAN, William H. Press, Saul A. Teukolsky, William T. Vetterling, Brian P. Flannery, Michael Metcalf, Cambridge University Press; 2<sup>nd<\sup> edition.
 
 For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used. 
 
