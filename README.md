@@ -61,10 +61,10 @@ FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 Python code by Ankit Raj (NCTU, Taiwan).
 
 ---
-        Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br> 
-        Raj, A., Hamaguchi, H., and Witek, H. A.<br> 
-	<em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
-	<a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
+Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br> 
+Raj, A., Hamaguchi, H., and Witek, H. A.<br> 
+<em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
+<a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
 ---
 
 
