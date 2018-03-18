@@ -1,5 +1,5 @@
 
-# H<sub>2</sub>-PolarizabilityMatrixElements
+# H<sub>2</sub>-PolarizabilityMatrixElements [Link to the article](https://doi.org/10.1063/1.5011433)
 Set of distance dependent data on polarizability together with FORTRAN and python programs for the interpolation (of polarizability over internuclear distance) and computation of the matrix elements over rovibrational states covering *J*=0--15 and *v*=0--4 within the ground electronic state. The programs evaluate the following integral: 
 
 ![integral image][img0]
@@ -57,6 +57,9 @@ FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 
 Python code by Ankit Raj (NCTU, Taiwan).
 
+---
+[Link to the article](https://doi.org/10.1063/1.5011433)
+---
 
 
 [img0]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/01-05-2018_82.png "Logo Title Text 2"
