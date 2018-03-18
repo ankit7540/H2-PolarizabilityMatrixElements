@@ -2,6 +2,7 @@
 # H<sub>2</sub>-PolarizabilityMatrixElements 
 
 [Link to the article](https://doi.org/10.1063/1.5011433)
+
 Set of distance dependent data on polarizability together with FORTRAN and python programs for the interpolation (of polarizability over internuclear distance) and computation of the matrix elements over rovibrational states covering *J*=0--15 and *v*=0--4 within the ground electronic state. The programs evaluate the following integral: 
 
 ![integral image][img0]
@@ -60,10 +61,10 @@ FORTRAN code by Prof. Henryk A Witek (NCTU, Taiwan).
 Python code by Ankit Raj (NCTU, Taiwan).
 
 ---
-              Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br> 
-              Raj, A., Hamaguchi, H., and Witek, H. A.<br> 
-			<em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
-			<a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
+        Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br> 
+        Raj, A., Hamaguchi, H., and Witek, H. A.<br> 
+	<em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
+	<a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
 ---
 
 
