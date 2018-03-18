@@ -65,7 +65,7 @@ Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br>
 Raj, A., Hamaguchi, H., and Witek, H. A.<br> 
 <em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
 <a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
----
+
 
 
 [img0]: https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/01-05-2018_82.png "Logo Title Text 2"
