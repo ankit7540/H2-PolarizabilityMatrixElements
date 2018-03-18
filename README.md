@@ -1,7 +1,7 @@
 
 # H<sub>2</sub>-PolarizabilityMatrixElements 
 
-[Link to the article](https://doi.org/10.1063/1.5011433) {Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br>, https://doi.org/10.1063/1.5011433}
+[Link to the article](https://doi.org/10.1063/1.5011433) {Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub>, https://doi.org/10.1063/1.5011433}
 
 Set of distance dependent data on polarizability together with FORTRAN and python programs for the interpolation (of polarizability over internuclear distance) and computation of the matrix elements over rovibrational states covering *J*=0--15 and *v*=0--4 within the ground electronic state. The programs evaluate the following integral: 
 
