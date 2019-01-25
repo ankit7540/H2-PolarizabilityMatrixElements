@@ -5,16 +5,18 @@ Python-module `rovibME`
 
 Requirements
 ----------------
-Python 2.x or Python 3.x with Numpy and Scipy modules
+Python 2.7 or Python 3.x with Numpy and Scipy modules
 
 Usage
 ----------------
-1. After cloning the respository and moving in the `python-module` directory, add the current folder to path allowing to import the module in the current folder (this is not needed with python3).
+Following commands are run under the Python interpreter environment.
+
+1. After cloning the repository and moving in the `python-module` directory, add the current folder to path allowing to import the module in the current folder (this is required for Python 2.7). 
     > import sys
     
     > sys.path.append("..")
      
-2. Import the `rovibME` which should be in your current folder.
+2. Import the `rovibME` which should be in your current folder. (Directly execute the following command when using Python3)
     > import rovibME
 3. If all requirements are met the following output should be produced.
     ```
@@ -62,23 +64,23 @@ Usage
 **Examples**
 ---
 
-A few matrix elements and their corresponding commands are shown below,
+A few matrix elements and their corresponding commands are shown below.
 
-- ![f1] for H<sub>2</sub> 
+- ![f1] Mean polarizability for the ground rovibrational state of H<sub>2</sub> at 488 nm
  
 ```rovibME.compute("H2",0,0,0,0,488,"n","mp")``` 
 
 
-- ![f2] for D<sub>2</sub>
+- ![f2] Polarizability anisotropy for D<sub>2</sub> at 0.15 Hartree for the mentioned rovibrational state
 
 ```rovibME.compute("D2",2,1,1,1,0.15,"H","g")``` 
 
 
-- ![f3] for HD
+- ![f3] zz-component of polarizability for HD at 3550 Angstrom for the mentioned rovibrational state
 
 ```rovibME.compute("HD",2,1,1,1,3550,"A","zz")``` 
 
-- Static mean polarizability for H<sub>2</sub> in the ground vibrationala and rotational state.
+- Static mean polarizability for H<sub>2</sub> in the ground rovibrational state
 ```rovibME.compute("H2",0,0,0,0,"static","nm","mp")```
  
  
