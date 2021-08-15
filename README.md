@@ -9,7 +9,7 @@ Set of distance dependent data on polarizability together with FORTRAN and pytho
 
 where, <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmin.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmin.png" width="45" height="15" /> = 0.2 *a.u.* and  <img src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmax.png" data-canonical-src="https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/image/rmax.png" width="45" height="15" /> = 4.48 *a.u.*
 This repository contains :
- - Internuclear distance dependent polarizability,
+ - Inter-nuclear distance dependent polarizability,
 
 Property | Definition
 ------------ | -------------
@@ -39,7 +39,7 @@ The programs for computation of matrix element (which includes cubic spline inte
 
 In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements, and *(ii)* `rovibME_static.f` for static ones.
 
-In the case of Python, one program `rovibME.py` deals with both static and dynamic matrix elements.
+In the case of Python, one program `rovibME.py` deals with both static and dynamic matrix elements. See example for more details.
 
 **Usage**
 ---
@@ -62,12 +62,12 @@ Cubic spline interpolation procedure used in FORTRAN and python codes has been a
 For evaluation of the definite integral the Adaptive Gausssian Quadrature implemented in SciPy has been used.
 
 **References on the evaluation of the definite integral and implementation:**
-- T. N. L. Patterson, Math. Comput. 22, 847 (1968)
-- T. N. L. Patterson, Math. Comput. 23, 892 (1969)
+- T. N. L. Patterson, <i>Math. Comput.</i> 22, 847 (1968)
+- T. N. L. Patterson, <i>Math. Comput.</i> 23, 892 (1969)
 - R. Piessens, E. de Doncker-Kapenga, C. Uberhuber, and D. Kahaner, Quadpack - A Sub-routine Package for Automatic Integration (Springer-Verlag Berlin Heidelberg, 1983)
 
 
-FORTRAN code by Prof. Henryk A Witek (NYCU, Taiwan).
+FORTRAN code by Prof. Henryk A. Witek (NYCU, Taiwan).
 
 Python code by Ankit Raj (NYCU, Taiwan).
 
@@ -77,10 +77,19 @@ Python code by Ankit Raj (NYCU, Taiwan).
 
 **Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br>**
 Raj, A., Hamaguchi, H., and Witek, H. A.<br>
-<em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
+<em><i>Journal of Chemical Physics </i></em><strong>148</strong>, 104308 (2018) <br>
 <a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
 
 ---
+
+Application oriented research based on this repository:
+
+ - Vibration–rotation interactions in H2, HD and D2 : centrifugal distortion factors and the derivatives of polarisability invariants ([10.1080/00268976.2019.1632950 ](https://www.tandfonline.com/doi/full/10.1080/00268976.2019.1632950))
+ - Toward standardization of Raman spectroscopy: Accurate wavenumber and intensity calibration using rotational Raman spectra of H<sub>2</sub>, HD, D<sub>2</sub>, and vibration–rotation spectrum of O<sub>2</sub> ([10.1002/jrs.5955](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/jrs.5955))
+
+ - Determination of accurate absolute Raman cross-section of benzene and cyclohexane in the gas phase (Asian J.Phys., 30 (2021) 321-335.)
+
+ - Accurate intensity calibration of multichannel spectrometers using Raman intensity ratios ([10.1002/jrs.6221](https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/jrs.6221))
 
 
 
