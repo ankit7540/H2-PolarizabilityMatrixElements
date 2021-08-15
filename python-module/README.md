@@ -64,7 +64,7 @@ Following commands are run under the Python interpreter environment.
 **Examples**
 ---
 
-See [jupyter notenook](https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/python-module/example/H2_polarizability_MEs_example.ipynb) for more details on usage this module for computing Raman intensities. 
+See [jupyter notebook](https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/python-module/example/H2_polarizability_MEs_example.ipynb) for more details on usage this module for computing Raman intensities. 
 
 
 A few matrix elements and their corresponding commands are shown below.
