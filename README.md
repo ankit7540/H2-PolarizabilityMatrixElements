@@ -28,7 +28,7 @@ This repository provides software for computing ro-vibrational matrix elements o
 
  - Wavelength-dependent Rayleigh intensities and corresponding depolarization ratios
  - Wavelength-dependent Raman intensities and corresponding depolarization ratios
- - Wavelength-dependent Refractive index
+ - Wavelength-dependent refractive index
  - Verdet constant
  - Kerr constant
 
@@ -37,22 +37,22 @@ This repository provides software for computing ro-vibrational matrix elements o
 ---
 The programs for computation of matrix element (which includes cubic spline interpolation and numerical integration) are written in FORTRAN and Python. These are independent programs which do the same job.
 
-In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements and *(ii)* `rovibME_static.f` for static ones.
+In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements, and *(ii)* `rovibME_static.f` for static ones.
 
 In the case of Python, one program `rovibME.py` deals with both static and dynamic matrix elements.
 
 **Usage**
 ---
-Clone this repository or download as a zip file. According to the program of choice, refer to the `README.md` in the FORTRAN-program folder or in the Python-module folder. (Both versions do the the same computation and give same results.)
+Clone this repository or download as a zip file. According to the program of choice, refer to the `README.md` in the FORTRAN-program folder or in the Python-module folder. (Both versions do the same computation and give same results.)
 
 
 **Comments on numerical accuracy**
 ---
-The definite integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainity in the computed matrix element is  +/- 1e-4 which includes the uncertainities introduced by the accuracy of the wavefunctions, polarizability, spline interpolation procedures and physical constants.
+The definite integral calculation is usually accurate to ~1e-6 or better. However, the net numerical uncertainty in the computed matrix element is  +/- 1e-4 which includes the uncertainties introduced by the accuracy of the wavefunctions, polarizability, spline interpolation procedures and physical constants.
 
 **Comments on the sign of the matrix element**
 ---
-Some matrix elements computed may have -ve sign which arises due to the phase of the wavefunction. In most applications, the square of the matrix elements are needed and thus the sign maybe of no real consequence.
+Some matrix elements computed may have negative sign which arises due to the phase of the wavefunction. In most applications, the square of the matrix elements are needed and thus the sign maybe of no real consequence.
 
 
 **Credits**
@@ -75,7 +75,7 @@ Python code by Ankit Raj (NYCU, Taiwan).
 
 **This work has been published in the following article:**
 
-Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br>
+**Polarizability tensor invariants of H<sub>2</sub>, HD, and D<sub>2</sub> <br>**
 Raj, A., Hamaguchi, H., and Witek, H. A.<br>
 <em>Journal of Chemical Physics </em><strong>148</strong>, 104308 (2018) <br>
 <a href="https://aip.scitation.org/doi/abs/10.1063/1.5011433">10.1063/1.5011433	</a>
