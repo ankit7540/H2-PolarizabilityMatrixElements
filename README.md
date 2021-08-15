@@ -39,7 +39,7 @@ The programs for computation of matrix element (which includes cubic spline inte
 
 In the case of FORTRAN, two different programs exist, *(i)* `rovibME_dynamic.f` for wavelength dependent matrix elements, and *(ii)* `rovibME_static.f` for static ones.
 
-In the case of Python, one program `rovibME.py` deals with both static and dynamic matrix elements. See example for more details.
+In the case of Python, one program `rovibME.py` deals with both static and dynamic matrix elements. [See example](https://github.com/ankit7540/H2-PolarizabilityMatrixElements/blob/master/python-module/example/H2_polarizability_MEs_example.ipynb) for more details.
 
 **Usage**
 ---
